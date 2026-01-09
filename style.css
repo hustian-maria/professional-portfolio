@@ -160,6 +160,10 @@ h2 {
 .card h2 {
   font-weight: 700;
 }
+.projects-title{
+  text-align: center;
+  margin-top: 2rem;
+}
 
 .all-projects {
   margin-top: 1.5rem;
