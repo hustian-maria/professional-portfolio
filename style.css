@@ -31,6 +31,10 @@ body {
 .navbar {
   background-color: var(--primary-color);
   padding: 1rem 2rem;
+  display: flex;
+  height: auto;
+  gap : 2rem;
+  flex-direction: column;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -40,14 +44,16 @@ body {
 
 .nav-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .nav-links {
   list-style: none;
-  display:none;
+  display:flex;
   gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .nav-links a {
@@ -253,7 +259,11 @@ footer {
 @media screen and (min-width:800px){
   .nav-container{
     display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 2rem;
     justify-content: space-between;
+    width: 100%;
   }
   .nav-links{
     display: flex;
