@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1>MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#" onclick="scrollToSection('about')">About</a></li>
+        <li><a href="#" onclick="scrollToSection('cv')">CV</a></li>
+        <li><a href="#" onclick="scrollToSection('skills')">Skills</a></li>
+        <li><a href="#" onclick="scrollToSection('projects')">Projects</a></li>
+         <li><a href="#" onclick="scrollToSection('contact')">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+        
+        <div>
+          <h2>Banlanjo Alexine Burinyuy</h2>
+          <p>Certified Microbiologist</p>
+          <a href="#" onclick="scrollToSection('contact')" class="btn">Get in Touch</a>
+        
+       </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about" id="about" >
+      <h2 >About Me</h2>
+      <div class="about-info">
+        <img src="IMG_9540.JPG" alt="">
+      <p>
+        My name is <strong>Banlanjo Alexine Burinyuy. </strong>Experienced Microbiologist with a strong foundation in microbial culture, molecular diagnostics, antimicrobial resistance, and
+        clinical microbiology. Proven research experience in academic and hospital laboratory settings, with technical proficiency in PCR,
+        protein expression, biochemical assays, and statistical analysis using Python and R. Led and co-investigated projects in natural
+        drug discovery, host-pathogen interactions, and immunological resistance mechanisms. Passionate about integrating
+        microbiology and bioinformatics to drive innovation in infectious disease research. Aspiring PhD candidate committed to
+        advancing global health through interdisciplinary research and scientific capacity building
+      </p>
+      </div>
+      
+    </section>
+
+    <section class="cv" id="cv">
+      <h2>Curriculum Vitae</h2>
+      <a href="Alexzine_Banlanjo_Embassy_CV.pdf" download class="btn">Download My CV</a>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="card">
+            <h2>Molecular Techniques</h2>
+            <p> Nucleic Acid extraction ( DNA, RNA, Proteins) / DNA Recombinant Technology / Sequencing / Protein expression / Antimicrobial Resistant Screening / PCR / Antimicrobial Susceptibility Testing / Western Blotting / ELISA / Microbial cloning / Gel Electrophoresis</p>
+        </div>
+        <div class="card">
+            <h2>Data Analysis and Bioinformatics Skills</h2>
+            <p> Statistical Data Analysis / Data Visualization / Programming in Python and R / Cloud Computing / Machine Learning / Microsoft
+            Excel / Molecular docking / AI and Machine Learning</p>
+        </div>
+        <div class="card">
+            <h2>Laborarory Skills</h2>
+            <p> Equipement Maintenance and Calibration / Aseptic Technique / Spectophotometry / Antibiogram Testing / Microscopy / Microbial
+            Culture / Sample Collection, Preparation and Storage / Biochemical Testing and Microbial Identification / Excellent writing and
+             verbal communication skills / Team-work oriented / Problem-solving / In vivo experimentation- </p>
+        </div>
+        <div class="card">
+            <h2>Statistics and Bioinformatics Tools</h2>
+            <p> NCBI / BLAST / Jupyter notebook / Drug bank / Pubchem / RSCB / Uniprot / Google lab / Phytochemical and ethnobotanical
+            database / Clustal omega / Python (Pandas, Matplotlib, Seaborn) / Excel / GraphPad Prism </p>
+        </div>
+     
+      </div>
+      <h2 class="projects-title" id="projects">PROJECTS</h2>
+      <div class="all-projects">
+        
+      
+        <div class="project-card">
+          <h3>Investigating the Association Between the Probiotic Rich Diet of the Fulani and the Activation of the Host Aryl
+            Hydrocarbon Receptor : A Putative Mechanism of Immune Protection Against Cryptosporidium Infection</h3>
+          <p> Stool samples from both fulani and non-fulani ethnic groups were collected and tested for indole and indole derivative compounds.Quantification of Indole and derivatives in stole samples was done using kovac's test and activation of aryl hydrocarbon receptor in THP-1 human macrophage cell lines was determined using Luciferase reporter system. </p>
+        </div>
+        <div class="project-card">
+          <h3>Assessing the Antimicrobial Activity of Neem oil from Seeds from Azadirachta indica against Cutibacterium acnes</h3>
+          <p> Acneexudates were collected and cultured to Isolate Cutibacterium acnes and then exposed to Neem oil to observe for antimicrobial activity.The resistance profile was tested using 4 conventional antibiotics and the synergistic effect between antibiotics and neem  oil was investigated. </p>
+        </div>
+     </div>
+    </section>
+    <section class="education">
+      <h2>Certifications</h2>
+        <div class="education-info">
+            <h3>Masters Degree in Microbiology</h3>
+            <p>University of Buea, Cameroon | 2022 - 2024</p>
+            <p>Final Grade;3.8/4.0</p>
+        </div>
+         <div class="education-info">
+            <h3>Bachelors Degree in Microbiology with Medical Laboratory Science as Minor</h3>
+            <p>University of Bamenda, Cameroon | 2017 - 2020</p>
+            <p>Final Grade;2.88/4.0</p>
+        </div>
+
+    </section>
+
+<section class="references" id="references">
+  <h2>Professional References</h2>
+  <div class="reference-grid">
+    <div class="reference-card">
+      <h3>Dr. Samuel Ngu</h3>
+      <p>Senior Pathologist, MedixLab</p>
+      <p>Email: <a href=" samuel.ngu@medixlab.org"> samuel.ngu@medixlab.org</a> </p>
+      <p>Phone: +237 6 77 00 00 00</p>
+    </div>
+    <div class="reference-card">
+      <h3>Ms. Clarisse Tamo</h3>
+      <p>Lab Supervisor, Biocare Diagnostics</p>
+      <p> Email: <a href="clarisse.tamo@biocare.cm">clarisse.tamo@biocare.cm</a></p>
+      <p>Phone: +237 6 99 88 77 66</p>
+    </div>
+  </div>
+</section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="alexzineburinyuy@gmail.com ">alexzineburinyuy@gmail.com </a></p>
+
+      <p>Phone number: <a href="+237 676812128 ">+237 676812128</a></p>
+
+      <p>LinkedIn: <a href="www.linkedin.com/in/alexzine" target="_blank"> www.linkedin.com/in/alexzine</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Alexine. All rights reserved.</p>
+  </footer>
+
+   <script>
+        function scrollToSection(id) {
+            const element =document.getElementById(id);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
